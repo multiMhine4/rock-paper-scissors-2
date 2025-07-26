@@ -36,7 +36,7 @@ function playGame() {
                 humanScore++;
             }
         } else if (humanChoice == "paper") {
-            if (computerChoice == "scissor") {
+            if (computerChoice == "scissors") {
                 console.log("You lose! Scissors beats Paper");
                 computerScore++;
             } else {
